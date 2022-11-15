@@ -1,0 +1,171 @@
+body{
+    background-image: url(../img/BilgewaterBG.png);
+    background-size: cover no repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    transform: translateX(-200px);
+}
+
+/* Image */
+
+.image{
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imagebottom{
+    margin-top: 80px;
+    margin-bottom: auto;
+}
+
+.imagecenter{
+    position: absolute;
+    margin-left: 100px;
+    transform: translateY(-200px);
+  }
+
+.videoimg{
+    position: absolute;
+    margin-left: 650px;
+    transform: translateY(-180px);
+}
+
+.luximg{
+    position: absolute;
+    margin-left: 150px;
+    transform: translateY(-100px);
+}
+
+.pubimg{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.superhero{
+    position: absolute;
+    margin-left: 600px;
+    transform: translateY(-100px);
+}
+
+.youtubeimgdroite{
+    position: absolute;
+    margin-left: 1010px;
+    transform: translateY(50px);
+}
+
+
+/* Text */
+
+.headerp{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 60px;
+}
+
+.centerp{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    width: 250px;
+    margin-left: 270px;
+    margin-top: 200px;
+    position: absolute;
+}
+.bottomp{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 250px;
+    transform: translateY(-100px);
+
+}
+.textlux{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 750px;
+    transform: translateY(-180px);
+}
+.textlux2{
+    position: absolute;
+    color: #BD913A;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 750px;
+    transform: translateY(-20px);
+}
+.textkennen{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 1180px;
+    transform: translateY(-180px);
+}
+
+.textkennen2{
+    position: absolute;
+    width: 300px;
+    font-size: 25px;
+    background: -webkit-linear-gradient(#13E1FC, #BD913A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-left: 1180px;
+    transform: translateY(-20px);
+}
+
+/* Bouton */
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #13E1FC 0%, #135058  51%, #BD913A 100%);
+    height: 50px;
+    width: auto;
+    margin: 40px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+           
+  .btn-grad2 {
+    background-image: linear-gradient(to right, #13E1FC 0%, #EAECC6  51%, #BD913A  100%);
+    margin: 280px;
+    padding: 15px 45px;
+    text-align: center;
+    position: absolute;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    transform: translateY(130px);
+  }
+
+  .btn-grad2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
